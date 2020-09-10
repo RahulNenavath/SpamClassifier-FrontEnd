@@ -1,16 +1,16 @@
 # Spam Classifer:
 
-A Simple Front-End Web Application to check whether a given sms text is actually spam or not. The predictions are made by a Deep Learning Model which is served using Flask and deployed via Docker in the backend. Users can also report misclassified instances which shall be stored in a firebase database.
+A simple front-end web application to check whether a given sms text is actually spam or not. The predictions are made by a LSTM Model which is served using flask and deployed via docker. Users can also report misclassified instances which shall be stored in a firebase database.
 
 ## Tech Stack:
 
-Reactjs and Firebase
+Reactjs and Firebase.
 
 ## Functionalities available:
 
-1) Check if the sms is spam or ham
-2) User login and Registration
-3) Report Misclassified Instances ( User must be logged in)
+1) Check if the sms is spam or ham.
+2) User login and Registration.
+3) Report Misclassified Instances ( User must be logged in).
 
 Note: To just check if the sms is spam / ham, user need not be logged in. Only to report misclassified instances the user must be logged in.
 
